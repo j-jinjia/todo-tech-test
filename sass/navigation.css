@@ -1,0 +1,20 @@
+.navBar .navList {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+}
+.navBar .navList .navList__logo {
+  font-size: 24px;
+}
+.navBar .navList .navList__button button {
+  background-image: linear-gradient(180deg, #e1a0a0, #e58181);
+  box-shadow: 0 10px 40px #6b3838;
+  font-size: 16px;
+  padding: 1rem;
+}
+.navBar .navList .navList__button button:hover {
+  background-image: linear-gradient(180deg, #E2C1C1, #EA8282);
+}

@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap");
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.navBar .navList {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+}
+.navBar .navList .navList__logo {
+  font-size: 24px;
+}
+.navBar .navList .navList__button button {
+  background-image: linear-gradient(180deg, #e1a0a0, #e58181);
+  box-shadow: 0 10px 40px #6b3838;
+  font-size: 16px;
+  padding: 1rem;
+}
+.navBar .navList .navList__button button:hover {
+  background-image: linear-gradient(180deg, #E2C1C1, #EA8282);
+}
+
+body {
+  background-color: #232229;
+  color: #FFFFFF;
+  font-family: jost;
+  height: 100vh;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #2B2A33;
+}
+.footer .footer__delete {
+  background-image: linear-gradient(180deg, #e1a0a0, #e58181);
+  box-shadow: 0 10px 40px #6b3838;
+  font-size: 16px;
+  padding: 1rem;
+}
+.footer .footer__delete:hover {
+  background-image: linear-gradient(180deg, #E2C1C1, #EA8282);
+}
