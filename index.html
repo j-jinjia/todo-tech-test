@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>MyTodos</title>
+</head>
+<body>
+    <nav class="navBar">
+        <ul class="navList">
+            <li class ="navList__logo">MyTodos</li>
+            <li class ="navList__button"><button>Reset</button></li>
+        </ul>
+    </nav>
+    <section class="header">
+        <h1 class="header__title">Welcome Back Jake!</h1>
+        <p class="header__message">Let’s enter the tasks we need to complete for this upcoming week. Just use the input below to create a todo.  </p>
+        <div class ="inputBar">
+            <input class ="inputBar__input" type="text" placeholder="Add your task here...">
+            <button class="inputBar__addBtn"> + </button>
+        </div>
+    </section >
+    <section class ="tasks">
+        <h3 clas ="tasks__header">Tasks</h3>
+        <ul class="tasks__list"> All tasks have been completed, well done!
+        </ul>
+        <p>Task to complete <span class="tasks__number"></span></p>
+    </section>
+    <footer class ="footer">
+        <p><span></span>Tasks(s) Selected</p>
+        <button class ="footer__delete">Delete</button>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
