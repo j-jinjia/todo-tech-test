@@ -6,6 +6,7 @@ const noTaskDisplay =document.querySelector(".tasks__empty");
 const checkBoxChecked = document.querySelector(".checkboxtick");
 const tasksNumber = document.querySelector(".tasks__number");
 const tasksListItems =document.querySelector(".list__items");
+const deleteButton = document.querySelector(".footer__delete")
 
 //Global Variables
 //Functions
@@ -18,18 +19,26 @@ const onClickInputFieldButton = () =>{
     //tasksNumber.innerText= tasksListItems.length;
 
 }
-//function that 
+
+//check if the checkbox has been checked.
+const validateCheck = () =>{
+    if (checkBoxChecked.checked){
+        console.log("hello")
+        alert("it¡s checked")
+    } else
+    console.log("bye")
+        
+}
+//function that deletes all checked tasks
+
 const onCheckBoxClick =() => {
 
-    if (checkBoxChecked.checked){
-        return 
-    } else
-    return false
-    
+
 
 }
+//Reset button : function that deletes input text and tasks, and name.
 //Event Listeners
 
 inputFieldButton.addEventListener("click", onClickInputFieldButton);
 inputField.addEventListener("",onClickInputFieldButton)
-checkBoxChecked.addEventListener("click", onCheckBoxClick);
+//checkBoxChecked.addEventListener("click", onCheckBoxClick);
