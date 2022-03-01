@@ -1,0 +1,19 @@
+.header .header__title {
+  font-size: 48px;
+  font-weight: 600;
+}
+.header .inputBar .inputBar__input {
+  background-color: #2B2A33;
+  border: 2px dashed #6C6A7C;
+  width: 80%;
+  margin-top: 1rem;
+  color: #ffffff;
+}
+.header .inputBar .inputBar__addBtn {
+  background-image: linear-gradient(180deg, #e1a0a0, #e58181);
+  box-shadow: 0 10px 40px #6b3838;
+  font-size: 16px;
+}
+.header .inputBar .inputBar__addBtn:hover {
+  background-image: linear-gradient(180deg, #E2C1C1, #EA8282);
+}

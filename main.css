@@ -5,32 +5,63 @@
   margin: 0;
 }
 
+body {
+  background-color: #232229;
+  color: #FFFFFF;
+  font-family: jost;
+  height: 100vh;
+  padding: 1rem;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navBar {
+  margin: 0;
+}
 .navBar .navList {
   display: flex;
   flex-direction: row;
   list-style: none;
   justify-content: space-between;
   align-items: center;
-  margin: 1rem;
 }
 .navBar .navList .navList__logo {
   font-size: 24px;
 }
 .navBar .navList .navList__button button {
+  padding: 1rem;
   background-image: linear-gradient(180deg, #e1a0a0, #e58181);
   box-shadow: 0 10px 40px #6b3838;
   font-size: 16px;
-  padding: 1rem;
 }
 .navBar .navList .navList__button button:hover {
   background-image: linear-gradient(180deg, #E2C1C1, #EA8282);
 }
 
-body {
-  background-color: #232229;
-  color: #FFFFFF;
-  font-family: jost;
-  height: 100vh;
+.header .header__title {
+  font-size: 48px;
+  font-weight: 600;
+}
+.header .inputBar .inputBar__input {
+  background-color: #2B2A33;
+  border: 2px dashed #6C6A7C;
+  width: 80%;
+  margin-top: 1rem;
+  color: #ffffff;
+}
+.header .inputBar .inputBar__addBtn {
+  background-image: linear-gradient(180deg, #e1a0a0, #e58181);
+  box-shadow: 0 10px 40px #6b3838;
+  font-size: 16px;
+}
+.header .inputBar .inputBar__addBtn:hover {
+  background-image: linear-gradient(180deg, #E2C1C1, #EA8282);
+}
+
+.tasks .tasks__list {
+  list-style: none;
 }
 
 .footer {
@@ -38,6 +69,8 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #2B2A33;
+  margin: 0;
+  padding: 0;
 }
 .footer .footer__delete {
   background-image: linear-gradient(180deg, #e1a0a0, #e58181);

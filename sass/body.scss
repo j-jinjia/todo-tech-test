@@ -3,4 +3,9 @@ body{
     color:#FFFFFF ;
     font-family: jost;
     height:100vh;
+    padding: 1rem;
+    margin:1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
