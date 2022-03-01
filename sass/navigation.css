@@ -10,6 +10,7 @@
 }
 .navBar .navList .navList__logo {
   font-size: 24px;
+  font-weight: 500;
 }
 .navBar .navList .navList__button button {
   padding: 1rem;

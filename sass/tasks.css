@@ -1,0 +1,6 @@
+.tasks .list {
+  list-style: none;
+}
+.tasks .list .list__items {
+  background-color: #2B2A33;
+}

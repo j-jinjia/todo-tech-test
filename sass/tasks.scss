@@ -1,5 +1,9 @@
 .tasks{
-    .tasks__list{
+    .list{
         list-style: none;
+        .list__items{
+            background-color: #2B2A33;
+        }
     }
+
 }

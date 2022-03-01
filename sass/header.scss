@@ -3,18 +3,29 @@
         font-size: 48px;
         font-weight: 600;
     };
+    .header__message{
+        color:#6C6A7C;
+        font-size: 16px;
+        font-weight: 400;
+    }
     .inputBar{
         .inputBar__input{
             background-color: #2B2A33;
             border: 2px dashed #6C6A7C;
             width: 80%;
+            padding: 1rem;
             margin-top: 1rem;
-            color: #ffffff
+            color: #ffffff;
+            position:absolute;
         };
         .inputBar__addBtn{
             background-image: linear-gradient(180deg, #e1a0a0,#e58181);
             box-shadow: 0 10px 40px #6b3838;
             font-size: 16px;
+            position: relative;
+            left: 450px;
+            top: 25px;
+            padding:5px;
             &:hover{
                 background-image: linear-gradient(180deg,#E2C1C1, #EA8282);
             }
